@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    background-color: rgb(19, 25, 33);
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("./amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* navbar box 2 address box */
+
+.address-box{
+    margin-left: 5px;
+    padding: 8px;
+}
+
+.address-box-child{
+    display: flex;
+    align-items: center;
+}
+
+.para1{
+    font-size: 0.85rem;
+    color: #C0C0C1;
+    margin-left: 15px;
+}
+
+.para2{
+    margin-left: 3px;
+}
+
+
+/* Search bar */
+
+.nav-search{
+    display: flex;
+    background-color: pink;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    /* padding: 8px; */
+}
+
+.nav-search:hover{
+    border: 3px solid #FEBD69;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    text-indent: 10px;
+    padding: 3px;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEBD69;
+    font-size: 1.2rem;
+    color: rgb(19, 25, 33);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* language india  */
+
+.language-container{
+    padding: 14px;
+    display: flex;
+}
+
+.language-container p{
+    font-size: 0.8rem;
+    margin-left: 3px;
+}
+
+.language-img{
+    width: 20px;
+}
+.language-img img{
+    width: 100%;
+}
+
+/* Sign in box */
+
+.nav-signin{
+    padding: 6px;
+}
+
+
+/* Returns and orders */
+
+
+.nav-return{
+    padding: 6px;
+}
+
+.span1{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85;
+    font-weight: 700;
+}
+
+
+/* Cart */
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 8px;
+}
